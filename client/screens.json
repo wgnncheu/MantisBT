@@ -1,6 +1,6 @@
 {
   "id": "app",
-  "name": "mantisbt",
+  "name": "mantisclassroom_5",
   "startScreen": "app.blank",
   "screens": [
     {
@@ -20,6 +20,20 @@
       "name": "multiselect",
       "sourceAppId": "_blank",
       "sourceScreenId": "app.multiselect"
+    },
+    {
+      "id": "login",
+      "name": "login",
+      "sourceScreenId": "app.login.logincool",
+      "sourceAppId": "universaltemplates",
+      "model": "login"
+    },
+    {
+      "id": "viewissues",
+      "name": "viewissues",
+      "sourceScreenId": "app.listview.listviewcool",
+      "sourceAppId": "universaltemplates",
+      "model": "viewissues"
     }
   ],
   "sourceAppId": "_blank",
